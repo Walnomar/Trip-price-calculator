@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.photo {
+  background-image: url("React-calculator-app.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.Parent  {
+  margin: auto;
+  max-width: 500;
+  background-image: url("React-calculator-app.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  margin: auto; 
+  background-color: #282c34;
+  padding: 15px;
+  height: 1500px;
+  width: 383px;
+  box-shadow:3px 3px 20px #282c34;
+}
+
+input {
+  display: block;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px; 
+  width: 350px;
+  size: initial;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 3px 3px 20px black;  
+  text-align: center;
+  background-color: black;
+  opacity: 0.76;
+  color: white;
+}
+
+input:hover {
+  background-color: darkgrey;
+  color:black;
+}
+
+input:focus {
+  color: black;
+  background-color: darkgrey;
+}
+
+button {
+  margin: 30px;
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+  border-radius: 6px;
+  border: none;
+  background-color: darkgrey;
+  opacity: 0.85;
+}
+
+button:hover {
+  box-shadow: 3px 3px 20px black;
+  background-color: darkgrey;
+  cursor: pointer;
+}
+
+.valueBox {
+  padding: 39px;
+  text-align: center;
+  display: block;
+  background-color: black;
+  opacity: 0.60;
+  height: 300px;
+  width: 350px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 20px black;
+  color:white;
+  font-weight: bold;
+  text-shadow: 5px;
+}
+.valueBox > .gasprice {
+  color: black;
+}
