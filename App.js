@@ -11,12 +11,7 @@ function App() {
   const tripPrice = (gasprice * journey * (consumption / 100)); 
   const tripPrice1 = tripPrice.toFixed(2);
 
-  //asetetaan arvot, en tiedä mihin
-  function setValues () {
-    setGasprice('');
-    setJourney('');
-    setConsumption('');
-  }
+
   
   return (    
   <div className='photo'>
